@@ -1,0 +1,4 @@
+START|TRF001|0|test.csv|csv|3
+REC|TRF001|1|Name=Alice,Mark=85.5,Age=20
+REC|TRF001|3|Name=Charlie,Mark=91.0,Age=19
+END|TRF001|4|3
