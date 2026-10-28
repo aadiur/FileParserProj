@@ -1,0 +1,32 @@
+# Arduino CLI & standalone binary tools
+bin/
+*.exe
+*.o
+*.obj
+*.elf
+
+# Arduino build artifacts
+**/build/
+build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Generated runtime outputs
+**/output/PARSED.CSV
+**/output/PARSED.TXT
+**/output/ERRORS.CSV
+**/output/ANOMALIES.CSV
+**/output/REPORT.TXT
+**/output/_ml_handoff.csv
+**/output/_ml_results.csv
+**/output/_tmp_proto.log
+**/output/_serial_capture.log
+
+# IDE & Editor files
+.vscode/
+*.swp

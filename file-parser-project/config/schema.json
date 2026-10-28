@@ -1,0 +1,34 @@
+{
+  "_comment": "Application config format for the File Parser project. NOT formal JSON Schema spec.",
+  "format": "csv",
+  "has_header": true,
+  "duplicate_detection": true,
+  "output_format": "both",
+  "if_contamination": 0.1,
+  "if_n_estimators": 100,
+  "if_random_state": 42,
+  "fields": [
+    {
+      "name": "Name",
+      "type": "string",
+      "required": true,
+      "numeric_feature": false
+    },
+    {
+      "name": "Mark",
+      "type": "float",
+      "required": true,
+      "min": 0,
+      "max": 100,
+      "numeric_feature": true
+    },
+    {
+      "name": "Age",
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 120,
+      "numeric_feature": true
+    }
+  ]
+}

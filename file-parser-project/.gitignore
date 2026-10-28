@@ -1,0 +1,31 @@
+# Build outputs
+c_engine/c_engine.exe
+c_engine/c_engine
+c_engine/*.o
+c_engine/test_engine.exe
+c_engine/test_engine
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Output files (generated)
+output/PARSED.CSV
+output/PARSED.TXT
+output/ERRORS.CSV
+output/ANOMALIES.CSV
+output/REPORT.TXT
+output/_ml_handoff.csv
+output/_ml_results.csv
+output/_tmp_proto.log
+output/_serial_capture.log
+
+# Arduino build
+arduino/build/
+
+# IDE
+.vscode/settings.json
+*.swp

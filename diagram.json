@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "author": "File Parser Project",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-microsd-card",
+      "id": "sd1",
+      "top": 60,
+      "left": 360,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    ["uno:10",    "sd1:CS",   "green",  []],
+    ["uno:11",    "sd1:MOSI", "blue",   []],
+    ["uno:12",    "sd1:MISO", "yellow", []],
+    ["uno:13",    "sd1:SCK",  "orange", []],
+    ["uno:5V",    "sd1:VCC",  "red",    []],
+    ["uno:GND.1", "sd1:GND",  "black",  []]
+  ],
+  "serialMonitor": {
+    "display": "terminal",
+    "newline": "lf"
+  }
+}
