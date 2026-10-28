@@ -1,0 +1,10 @@
+Name,Mark,Age
+Alice,85.5,20
+Bob,not_a_number,22
+Charlie,450.0,19
+,78.5,21
+Eve,60.5,twenty
+Frank,88.0,20,ExtraField
+"Bad""Quote,55.0,22
+ThisNameIsExtremelyLongAndExceedsTheFieldLengthLimitToTestBufferOverflowHandlingInTheValidator12345678,72.0,23
+Alice,85.5,20

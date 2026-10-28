@@ -1,0 +1,4 @@
+{ this is not valid JSON
+  "format": "csv"
+  missing: quotes
+}

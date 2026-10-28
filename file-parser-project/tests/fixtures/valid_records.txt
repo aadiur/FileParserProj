@@ -1,0 +1,8 @@
+Alice|85.5|20
+Bob|72.0|22
+Charlie|91.0|19
+Diana|15.0|21
+Eve|60.5|23
+Frank|88.0|20
+Grace|45.0|24
+Hank|78.5|21
